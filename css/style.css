@@ -1,22 +1,51 @@
-/* General Frame */
 body{
     background-image: url(../assets/images/bag.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.navigation {
-    color:white;
-    padding: 20px;
-    text-align: center;
-}
-
 nav a{
     color: white;
     padding: 20px;
+
 }
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 
 }
+.hero_section{
+    display: flex;
+    color: white;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+
+.hero_section p{
+    font-size:20px;
+}
+.hero_section h1{
+    font-size:90px ; 
+}
+.paragraph{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+.button{
+    align-items: center;
+    display: flex;
+    position-area: initial;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+
+
