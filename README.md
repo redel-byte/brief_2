@@ -10,7 +10,7 @@ The main goal is to enhance the **visual aesthetics**, **overall usability**, an
 
 ### 🎨 Design Mockup
 - Complete and refine the design mockups for the pages:  
-  **`PROPERTIES`**, **`BLOG`**, and **`CONTACT`**.  
+  **wiwiwi**, **`BLOG`**, and **`CONTACT`**.  
 - Follow UI/UX best practices carefully.  
 - Maintain full consistency with the existing **Nexus brand identity**.
 

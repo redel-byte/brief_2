@@ -1,0 +1,22 @@
+/* General Frame */
+body{
+    background-image: url(../assets/images/bag.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navigation {
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
