@@ -1,73 +1,125 @@
-body{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-image: url(../assets/images/bag.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-nav a{
-    color: white;
-    padding: 20px;
-    text-decoration: none;
 
+header {
+    background-color: rgba(13, 13, 13, 0.8);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
 }
-nav {
+
+.header__navigation {
     display: flex;
+    text-align: center;
     justify-content: space-between;
-    padding: 30px;
-    background-color: rgba(134, 160, 205,0.3);
-}
-.hero_section{
-    display: flex;
     color: white;
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
-    height: 50vh;
+    height: 4.3rem;
+    padding: 1rem;
 }
 
-
-.hero_section p{
-    font-size:20px;
-}
-.hero_section h1{
-    margin: 0px;
-    font-size:90px ; 
-}
-.paragraph{
-    justify-content: center;
-    display: flex;
-    align-content: center;
-}
-.button{
-    align-items: center;
-    display: flex;
-    position-area: initial;
-}
-
-footer{
-    display: flex;
-    align-items: center;
-}
-#Nexus{
-    background: linear-gradient(to right ,#00cfff,#c23eff);
-    -webkit-backgound-clip:text;
+.nav__title {
+    text-decoration: none;
+    background: linear-gradient(to right, #00cfff, #c23eff);
+    -webkit-backgound-clip: text;
     background-clip: text;
-    -webkit-text-fill-color:transparent;
-    font-size: 20px;
-    text-shadow :0 0 25px #c23eff;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    text-shadow: 0 0 25px #c23eff;
 }
-.raise{
-    background: linear-gradient(to left ,#00cfff,#c23eff);
-    border-radius: 30px;
+
+.menu a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1rem;
 }
-.trophy{
-    background:linear-gradient(to left ,#00cfff,#c23eff);
-    border-radius: 30px;
-    font-size: 20px;
+
+.join__tournaments a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 30rem;
+    -webkit-backgound-clip: text;
+    background-clip: text;
+    background: linear-gradient(to left, #00cfff, #c23eff);
+    padding: 0.5rem;
 }
-.watch{
-    background:linear-gradient(to left ,#00cfff,#c23eff);
-    border-radius:30px;
-    font-size: 20px;
+
+main {
+    padding: 3rem;
+}
+
+.main__title {
+    font-size: 6.4rem;
+}
+
+.main__paragraph {
+    font-size: 2rem;
+}
+
+.hero__section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    padding: 2.8rem;
+}
+
+.button__trophy {
+    border-radius: 3.5rem;
+    background: linear-gradient(to left, #00cfff, #c23eff);
+}
+
+.whatch__button {
+    border-radius: 3.5rem;
+    background: linear-gradient(to right, #00cfff, #c23eff)
+}
+
+.footer {
+    background-color:#00000089 ; 
+    flex-direction: column;
+}
+
+.first__part__footer {
+    display: flex;
+    padding: 2rem;
+    text-align: left;
+    justify-content: space-around;
+}
+
+
+.platform__div a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff9;
+    transition: 500ms;
+}
+
+.platform__div a:hover {
+    color: #00cfff;
+    transform: scale(1.1);
+}
+
+.platform__div li {
+    transition: 500ms;
+}
+
+.platform__div li:hover {
+    transform: scale(1.1);
 }
