@@ -94,8 +94,8 @@ body {
   height: 100vh;
 }
 
-.tournamentss__hero__section {
-  background-image: url(../assets/images/tournaments_background.jpg);
+.tournaments__hero__section {
+  background-image: url(../assets/images/tournament_background.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
