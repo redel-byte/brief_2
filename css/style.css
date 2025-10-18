@@ -24,10 +24,10 @@ body {
 
 .nav__title {
   text-decoration: none;
+  text-decoration: none;
   background: linear-gradient(to right, #00cfff, #c23eff);
   -webkit-backgound-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 1.5rem;
   text-shadow: 0 0 25px #c23eff;
 }
@@ -44,7 +44,7 @@ body {
   padding: 1rem;
 }
 
-.join__tournaments a {
+.join__tournamentss a {
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
@@ -68,11 +68,10 @@ body {
 }
 
 .home__hero__section {
-  background-image: url(../assets/images/bag.jpg);
+  background-image: url(../assets/images/home_background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: column;
   color: white;
@@ -83,11 +82,10 @@ body {
 }
 
 .games__hero__section {
-  background-image: url(https://imgs.search.brave.com/PdS_QGHDN5usHSdtIhTCTuzloFLEbUd_xBTmu5evlM0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzA5LzY4Lzg3/LzM2MF9GXzYwOTY4/ODcwOV9jWXp0d2pD/b2xtMUFLN2FpWE1S/MUx2bGdQSXRsdVBB/NC5qcGc);
+  background-image: url(../assets/images/games_background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: column;
   color: white;
@@ -96,8 +94,8 @@ body {
   height: 100vh;
 }
 
-.tournaments__hero__section {
-  background-image: url(../assets/images/tournament.webp);
+.tournamentss__hero__section {
+  background-image: url(../assets/images/tournaments_background.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -111,7 +109,7 @@ body {
 }
 
 .teams__hero__section {
-  background-image: url(../assets/images/teams.webp);
+  background-image: url(../assets/images/team_background.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -124,7 +122,7 @@ body {
 }
 
 .blog__hero__section {
-  background-image: url(https://imgs.search.brave.com/yb8stPGElKd-Jj1TyG-MERqurI6qNlE5lUzZmC6yfko/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTc0/MjQ0MDQzNS9waG90/by90b3VjaGluZy12/aXJ0dWFsLXdvcmxk/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1oaGxfOGpmUEN6/cEp0XzlBangzd1dm/SlBUWDlDVHJGNEta/aGJnM2RNSTN3PQ);
+  background-image: url(../assets/images/blog_background.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -132,20 +130,21 @@ body {
   color: white;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.contact__hero__section{
+  background-image: url(../assets/images/contact_background.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-repeat: no-repeat;
 }
 
-.hero__section::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  background-color: rgba(13, 13, 13, 0.6);
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.6;
-}
+
 
 .button {
   padding: 2.8rem;
@@ -248,7 +247,7 @@ body {
 
 .section_cards {
   padding: 30px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: space-between;
 }
@@ -258,7 +257,7 @@ body {
   overflow: hidden;
   justify-content: center;
   flex-direction: column;
-  transition: all 0.3s ease;
+  transition: 500ms;
   border-radius: 10%;
   position: relative;
 }
@@ -392,4 +391,71 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.contact__title{
+  display: flex;
+  color:#00c4ff;
+  padding: 50px;
+}
+
+.contact-form {
+  padding: 30px;
+  border-radius: 20px;
+  width: 500px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  resize: none;
+  transition: 0.3s ease;
+}
+
+.input-group label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: #888;
+  pointer-events: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+
+button {
+  background: linear-gradient(90deg, #8000ff, #c000ff);
+  color: white;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #a100ff, #e000ff);
 }
